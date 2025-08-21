@@ -1,0 +1,30 @@
+theme: jekyll-theme-minimal
+title: "OpenCode 教程网站"
+description: "OpenCode 命令行工具完整入门指南"
+url: ""
+baseurl: ""
+
+# GitHub Pages 设置
+plugins:
+  - jekyll-relative-links
+
+# 启用相对链接插件
+relative_links:
+  enabled: true
+  collections: true
+
+# 包含的文件
+include:
+  - README.md
+
+# 排除的文件
+exclude:
+  - opencode.md
+
+# Markdown 设置
+markdown: kramdown
+highlighter: rouge
+
+# 网站元数据
+lang: zh-CN
+author: "OpenCode 社区"
